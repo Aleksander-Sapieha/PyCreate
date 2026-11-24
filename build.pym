@@ -1,5 +1,15 @@
-pycreate_init()
+#
+#   !!! USE THIS IF NOT USING BASH !!!
+#
+#   Create/build.sh
+#
+#   Creator: Aleksander Sapieha (sourceguy68@gmail.com)
+#
+#   Contributors:
+#   Aleksander Sapieha (sourceguy68@gmail.com)
+#
 
+pycreate_init()
 set_script("src/pycreate.py")
 set_script("src/commands.py")
 
