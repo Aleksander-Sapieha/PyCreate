@@ -1,0 +1,8 @@
+pycreate_init()
+
+set_script("src/pycreate.py")
+set_script("src/commands.py")
+
+set_onefile(True)
+
+build()

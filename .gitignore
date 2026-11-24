@@ -1,0 +1,13 @@
+#
+#   Create/.gitignore
+#
+#   Creator: Aleksander Sapieha (sourceguy68@gmail.com)
+#
+#   Contributors:
+#   Aleksander Sapieha (sourceguy68@gmail.com)
+#
+
+/build/
+commands.spec
+pycreate.spec
+/dist/
