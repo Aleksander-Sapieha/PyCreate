@@ -7,7 +7,7 @@
 
 ## Building from source
 
-Run either build-old.sh or build.pym
+Run build-old.sh (Linux), build-old.cmd (Windows) or build.pym (Cross platform)
 
 ## Scripting
 
