@@ -18,7 +18,7 @@ Run either build-old.sh or build.pym
 3. add_file(path) - Adds a non-python file to the executable. Can be run multiple times.
 4. set_name(value) - Sets the name of the executable.
 5. set_onefile(value) - Toggles the --onefile argument. If true, the final executable will be a single file.
-6. set_console(value) - Enables/diables the console. If false, the console won't appear. Useful for apps with graphics.
+6. set_console(value) - Enables/disables the console. If false, the console won't appear. Useful for apps with graphics.
 7. build() - Creates the command and runs it. Required for the script to execute.
 
 ### All text that starts with # will be a comment, and doesn't impact your script.
