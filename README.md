@@ -21,6 +21,8 @@ Run either build-old.sh or build.pym
 6. set_console(value) - Enables/diables the console. If false, the console won't appear. Useful for apps with graphics.
 7. build() - Creates the command and runs it. Required for the script to execute.
 
+### All text that starts with # will be a comment, and doesn't impact your script.
+
 ## Requirements
 
 1. pyinstaller
