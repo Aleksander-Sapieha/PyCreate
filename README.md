@@ -20,6 +20,8 @@ Run build-old.sh (Linux), build-old.cmd (Windows) or build.pym (Cross platform)
 5. set_onefile(value) - Toggles the --onefile argument. If true, the final executable will be a single file.
 6. set_console(value) - Enables/disables the console. If false, the console won't appear. Useful for apps with graphics.
 7. build() - Creates the command and runs it. Required for the script to execute.
+8. print() - Print text to the console
+9. if statements
 
 ### All text that starts with # will be a comment, and doesn't impact your script.
 
