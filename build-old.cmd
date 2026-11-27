@@ -13,6 +13,6 @@ REM
 
 echo Starting build...
 
-pyinstaller src/pycreate.py src/commands.py --onefile
+pyinstaller src/pycreate.py src/commands.py src/lexer.py src/evaluator.py src/parser.py src/errors.py --onefile
 
 echo Build finished!

@@ -1,7 +1,7 @@
 #
-#   !!! USE THIS IF NOT USING BASH !!!
+#   !!! USE THIS IF NOT USING BASH or CMD !!!
 #
-#   Create/build.sh
+#   Create/build.pym
 #
 #   Creator: Aleksander Sapieha (sourceguy68@gmail.com)
 #
@@ -10,9 +10,17 @@
 #
 
 pycreate_init()
+print("Initialization finished!")
+print("Building")
 set_script("src/pycreate.py")
 set_script("src/commands.py")
+set_script("src/errors.py")
+set_script("src/parser.py")
+set_script("src/evaluator.py")
+set_script("src/lexer.py")
 
 set_onefile(True)
 
 build()
+
+print("Finished")
