@@ -16,6 +16,7 @@ py_files = []
 name = None
 onefile = False
 console = True
+separator = ";" if os.name == "nt" else ":"
 
 def pycreate_init():
     global files,  py_files
@@ -26,9 +27,9 @@ def set_script(path):
     global py_files
     py_files.append(path)
 
-def add_file(path):
-    global files
-    files.append(path)
+def add_file(path, target):
+    global files, separator
+    files.append(f"{path}{separator}{target}")
 
 def set_name(value):
     global name
@@ -59,8 +60,7 @@ def build():
         command.extend(["--name", name])
 
     for file in files:
-        separator = ";" if os.name == "nt" else ":"
-        command.extend(["--add-data", f"{file}{separator}."])
+        command.extend(["--add-data", f"{file}."])
 
     for py_file in py_files:
         command.append(py_file)
